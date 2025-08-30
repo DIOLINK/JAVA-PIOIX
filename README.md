@@ -128,9 +128,9 @@ user.ask();
 ## 👨‍💻 Autor
 
 **Roger Coverzola Bogado**
-- 📧 Email: [tu-email@ejemplo.com]
-- 💼 LinkedIn: [tu-linkedin]
-- 🐙 GitHub: [tu-github]
+- 📧 Email: [roger.bogado.coverzola@gmail.com]
+- 💼 LinkedIn: [[linkedin](https://www.linkedin.com/in/roger-c-77a27a192/?locale=en_US)]
+- 🐙 GitHub: [https://github.com/DIOLINK]
 
 ## 📝 Licencia
 
