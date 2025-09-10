@@ -30,8 +30,11 @@ public class Ejers {
 //    SumNumber user = new SumNumber();
 //    user.cal();
 //7.
-    SumAllNum user = new SumAllNum();
-    user.cal();
+//    SumAllNum user = new SumAllNum();
+//    user.cal();
 
+     Clase4 use = new Clase4();
+     use.run1();
+     use.run2();
   }
 }
