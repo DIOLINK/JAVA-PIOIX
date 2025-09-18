@@ -33,8 +33,15 @@ public class Ejers {
 //    SumAllNum user = new SumAllNum();
 //    user.cal();
 
-     Clase4 use = new Clase4();
-     use.run1();
-     use.run2();
+//     Clase4 use = new Clase4();
+//     use.run1();
+//     use.run2();
+//    ColaImpresora user = new ColaImpresora();
+//    user.agregarTrabajo();
+//    user.procesarTrabajo();
+    ArraySort user = new ArraySort();
+//    user.run();
+      user.shopping();
+
   }
 }

@@ -1,6 +1,10 @@
 com/util/ProgramUtil.class
-com/rcoverzola/ejers/HowOldAreYou.class
 com/rcoverzola/ejers/UnivenOrPair.class
+com/rcoverzola/ejers/Matriz.class
+com/rcoverzola/ejers/ArraySort$DataPoint.class
+com/rcoverzola/ejers/ColaImpresora.class
+com/rcoverzola/ejers/ArraySort.class
+com/rcoverzola/ejers/HowOldAreYou.class
 com/rcoverzola/ejers/Clase4.class
 com/rcoverzola/ejers/Divide.class
 com/rcoverzola/ejers/ValidateStorePass.class
