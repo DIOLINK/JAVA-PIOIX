@@ -1,24 +1,1 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.rcoverzola.ejers;
-
-import com.util.ProgramUtil;
-
-/**
- *
- * @author Roger Coverzola Bogado
- */
-public class Matriz extends ProgramUtil {
-  private int[][] m;
-  
-  public Matriz(int x,int y){
-    String[] message = {"Ingrese un numero: ", "No es un valor valido", "El resultado de sumar 1 hasta ", " es: ", "Adios!!"};
-    init(message);
-    this.m = new int[x][y];
-  }
-  
-  public void file(){}
-  
-}
+/* * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template */package com.rcoverzola.ejers;import com.util.ProgramUtil;import java.util.regex.Matcher;import java.util.regex.Pattern;/** * * @author Roger Coverzola Bogado */public class Matriz extends ProgramUtil {  private int[][] matrix;  private int row = 0;  private int col = 0;  public Matriz() {    String[] message = {"Ingrese las dimensiones, numero entero de (filas y columnas): ", "No es un valor valido", "Valor para la posición ", " es: ", "Adios!!"};    init(message);  }  private void creatMatrix() {    System.out.println(this.MESSAGES[0]);    String text = super.scanner.nextLine();    Pattern patron = Pattern.compile("\\d+");    Matcher findText = patron.matcher(text);    if (findText.find()) {      this.row = Integer.parseInt(findText.group());    }    if (findText.find()) {      this.col = Integer.parseInt(findText.group());    }    if (this.col > 0 && this.row > 0) {      this.matrix = new int[this.row][this.col];      this.fillMatrix();    } else {      System.out.println(this.MESSAGES[1]);      this.run();    }  }  private void fillMatrix() {    for (int i = 0; i < this.row; i++) {      for (int j = 0; j < this.col; j++) {        System.out.println(this.MESSAGES[2] + "[" + i + "]" + "[" + j + "]" + this.MESSAGES[3]);        Integer value = super.scanner.nextInt();        this.matrix[i][j] = value;      }    }    this.printMatrix();  }  private void printMatrix() {    for (int i = 0; i < this.row; i++) {      for (int j = 0; j < this.col; j++) {        System.out.println(this.matrix[i][j]);      }    }    this.EXIT = false;    System.out.println(this.MESSAGES[4]);  }  public void run() {    this.creatMatrix();  }}

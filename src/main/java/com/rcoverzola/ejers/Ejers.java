@@ -39,9 +39,11 @@ public class Ejers {
 //    ColaImpresora user = new ColaImpresora();
 //    user.agregarTrabajo();
 //    user.procesarTrabajo();
-    ArraySort user = new ArraySort();
+//    ArraySort user = new ArraySort();
 //    user.run();
-      user.shopping();
+//      user.shopping();
 
+    Matriz ejer = new Matriz();
+    ejer.run();
   }
 }
